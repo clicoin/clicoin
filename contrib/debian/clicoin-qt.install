@@ -1,0 +1,6 @@
+usr/local/bin/clicoin-qt usr/bin
+share/pixmaps/clicoin32.xpm usr/share/pixmaps
+share/pixmaps/clicoin16.xpm usr/share/pixmaps
+share/pixmaps/clicoin128.png usr/share/pixmaps
+debian/clicoin-qt.desktop usr/share/applications
+debian/clicoin-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=Clicoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=clicoin
+Group=clicoin
+
+Type=forking
+PIDFile=/var/lib/clicoind/clicoind.pid
+ExecStart=/usr/bin/clicoind -daemon -pid=/var/lib/clicoind/clicoind.pid \
+-conf=/etc/clicoin/clicoin.conf -datadir=/var/lib/clicoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

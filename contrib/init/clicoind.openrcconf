@@ -1,0 +1,33 @@
+# /etc/conf.d/clicoind: config file for /etc/init.d/clicoind
+
+# Config file location
+#CLICOIND_CONFIGFILE="/etc/clicoin/clicoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $CLICOIND_USER)
+#CLICOIND_PIDDIR="/var/run/clicoind"
+
+# What filename to give the pidfile
+#CLICOIND_PIDFILE="${CLICOIND_PIDDIR}/clicoind.pid"
+
+# Where to write clicoind data (be mindful that the blockchain is large)
+#CLICOIND_DATADIR="/var/lib/clicoind"
+
+# User and group to own clicoind process
+#CLICOIND_USER="clicoin"
+#CLICOIND_GROUP="clicoin"
+
+# Path to clicoind executable
+#CLICOIND_BIN="/usr/bin/clicoind"
+
+# Nice value to run clicoind under
+#CLICOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+CLICOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for clicoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+CLICOIND_SIGTERM_TIMEOUT=60

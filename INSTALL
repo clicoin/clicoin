@@ -1,0 +1,5 @@
+Building Clicoin
+
+See doc/build-*.md for instructions on building clicoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Clicoin.

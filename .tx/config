@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[clicoin.qt-translation-012x]
+file_filter = src/qt/locale/clicoin_<lang>.ts
+source_file = src/qt/locale/clicoin_en.ts
+source_lang = en

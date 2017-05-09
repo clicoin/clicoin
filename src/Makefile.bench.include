@@ -1,0 +1,45 @@
+bin_PROGRAMS += bench/bench_clicoin
+BENCH_SRCDIR = bench
+BENCH_BINARY = bench/bench_clicoin$(EXEEXT)
+
+
+bench_bench_clicoin_SOURCES = \
+  bench/bench_clicoin.cpp \
+  bench/bench.cpp \
+  bench/bench.h \
+  bench/Examples.cpp
+
+bench_bench_clicoin_CPPFLAGS = $(AM_CPPFLAGS) $(CLICOIN_INCLUDES) $(EVENT_CLFAGS) $(EVENT_PTHREADS_CFLAGS) -I$(builddir)/bench/
+bench_bench_clicoin_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+bench_bench_clicoin_LDADD = \
+  $(LIBCLICOIN_SERVER) \
+  $(LIBCLICOIN_COMMON) \
+  $(LIBCLICOIN_UNIVALUE) \
+  $(LIBCLICOIN_UTIL) \
+  $(LIBCLICOIN_CRYPTO) \
+  $(LIBLEVELDB) \
+  $(LIBMEMENV) \
+  $(LIBSECP256K1)
+
+if ENABLE_ZMQ
+bench_bench_clicoin_LDADD += $(LIBCLICOIN_ZMQ) $(ZMQ_LIBS)
+endif
+
+if ENABLE_WALLET
+bench_bench_clicoin_LDADD += $(LIBCLICOIN_WALLET)
+endif
+
+bench_bench_clicoin_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
+bench_bench_clicoin_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+
+CLEAN_CLICOIN_BENCH = bench/*.gcda bench/*.gcno
+
+CLEANFILES += $(CLEAN_CLICOIN_BENCH)
+
+clicoin_bench: $(BENCH_BINARY)
+
+bench: $(BENCH_BINARY) FORCE
+	$(BENCH_BINARY)
+
+clicoin_bench_clean : FORCE
+	rm -f $(CLEAN_CLICOIN_BENCH) $(bench_bench_clicoin_OBJECTS) $(BENCH_BINARY)

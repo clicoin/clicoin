@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Clicoin
+Comment=Clicoin P2P Cryptocurrency
+Comment[fr]=Clicoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Clicoin, eşten eşe kriptografik sanal para birimi
+Exec=clicoin-qt %u
+Terminal=false
+Type=Application
+Icon=clicoin128
+MimeType=x-scheme-handler/clicoin;
+Categories=Office;Finance;
