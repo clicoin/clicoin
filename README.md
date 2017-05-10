@@ -16,7 +16,7 @@ out collectively by the network. Clicoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Clicoin Core software, see http://www.clicoin.org/download.html.
+the Clicoin Core software, see https://github.com/clicoin/clicoin/releases/tag/v0.12.0.
 
 License
 -------
