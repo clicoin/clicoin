@@ -220,7 +220,7 @@
     </message>
     <message>
         <source>Send coins to a Clicoin address</source>
-        <translation>Enviar monedas a una dirección BItCoin</translation>
+        <translation>Enviar monedas a una dirección clicoin</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>

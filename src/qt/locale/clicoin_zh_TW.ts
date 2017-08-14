@@ -67,11 +67,11 @@
     </message>
     <message>
         <source>These are your Clicoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的位元幣位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
+        <translation>這些是你要付款過去的clicoin位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
     <message>
         <source>These are your Clicoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的位元幣位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <translation>這些是你用來收款的clicoin位址。建議在每次交易時，都使用一個新的收款位址。</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -161,7 +161,7 @@
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CLICOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的位元幣了&lt;/b&gt;！</translation>
+        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的clicoin了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -403,7 +403,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and clicoin: URIs)</source>
-        <translation>要求付款(產生 QR Code 和位元幣付款協議的資源識別碼: URI)</translation>
+        <translation>要求付款(產生 QR Code 和clicoin付款協議的資源識別碼: URI)</translation>
     </message>
     <message>
         <source>&amp;About Clicoin Core</source>
@@ -818,7 +818,7 @@
     </message>
     <message>
         <source>The entered address "%1" is not a valid Clicoin address.</source>
-        <translation>輸入的位址 %1 並不是有效的位元幣位址。</translation>
+        <translation>輸入的位址 %1 並不是有效的clicoin位址。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1021,7 +1021,7 @@
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting Clicoin Core.</source>
-        <translation>可以在這裡設定使用者介面的語言。這個設定在重啓位元幣核心後才會生效。</translation>
+        <translation>可以在這裡設定使用者介面的語言。這個設定在重啓clicoin核心後才會生效。</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1081,7 +1081,7 @@
     </message>
     <message>
         <source>Automatically open the Clicoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開放位元幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+        <translation>自動在路由器上開放clicoin的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1089,7 +1089,7 @@
     </message>
     <message>
         <source>Connect to the Clicoin network through a SOCKS5 proxy.</source>
-        <translation>透過 SOCKS5 代理伺服器來連線到位元幣網路。</translation>
+        <translation>透過 SOCKS5 代理伺服器來連線到clicoin網路。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1129,7 +1129,7 @@
     </message>
     <message>
         <source>Connect to the Clicoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>透過另外的 SOCKS5 代理伺服器來連線到位元幣網路中的 Tor 隱藏服務。</translation>
+        <translation>透過另外的 SOCKS5 代理伺服器來連線到clicoin網路中的 Tor 隱藏服務。</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1216,7 +1216,7 @@
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Clicoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>顯示的資訊可能是過期的。跟位元幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+        <translation>顯示的資訊可能是過期的。跟clicoin網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1519,7 +1519,7 @@
     </message>
     <message>
         <source>Open the Clicoin Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>從目前的資料目錄下開啓位元幣核心的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
+        <translation>從目前的資料目錄下開啓clicoin核心的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1762,7 +1762,7 @@
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Clicoin network.</source>
-        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到位元幣網路上。</translation>
+        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到clicoin網路上。</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2226,7 +2226,7 @@
     </message>
     <message>
         <source>The fee will be deducted from the amount being sent. The recipient will receive less clicoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的位元幣。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
+        <translation>手續費會從要付款出去的金額中扣掉。因此收款人會收到比輸入的金額還要少的clicoin。如果有多個收款人的話，手續費會平均分配來扣除。</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -2288,7 +2288,7 @@
     </message>
     <message>
         <source>The Clicoin address to sign the message with</source>
-        <translation>用來簽署訊息的位元幣位址</translation>
+        <translation>用來簽署訊息的clicoin位址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3010,7 +3010,7 @@
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Clicoin Core is probably already running.</source>
-        <translation>沒辦法繫結在這台電腦上的 %s 。位元幣核心可能已經在執行了。</translation>
+        <translation>沒辦法繫結在這台電腦上的 %s 。clicoin核心可能已經在執行了。</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
@@ -3338,7 +3338,7 @@
     </message>
     <message>
         <source>Initialization sanity check failed. Clicoin Core is shutting down.</source>
-        <translation>初始化時的基本檢查失敗了。位元幣核心就要關閉了。</translation>
+        <translation>初始化時的基本檢查失敗了。clicoin核心就要關閉了。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>

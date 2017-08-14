@@ -105,7 +105,7 @@
     </message>
     <message>
         <source>Warning: Invalid Clicoin address</source>
-        <translation>警告：比特币地址无效</translation>
+        <translation>警告：clicoin地址无效</translation>
     </message>
     </context>
 <context>
